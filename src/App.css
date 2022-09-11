@@ -1,0 +1,57 @@
+
+.App-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  padding: 30px;
+
+}
+
+.image-container {
+  padding-top: 5px;
+  width: 40px;
+  height: 40px;
+
+}
+
+.author-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.post-container {
+  display: flex;
+  margin: 15px 5px 5px;
+  padding: 15px 5px 5px 20px;
+  background-color: rgb(131, 184, 95);
+  width: 95%;
+  border-radius: 5px;
+}
+.text-field {
+  margin: 15px;
+  border: 0px;
+  width: 90%;
+  background-color: #e9e3e3;
+  border-bottom: 1px solid black;
+}
+.App {
+  padding: 8px;
+  background-color: gainsboro;
+}
+.error-message {
+  top: 50px;
+  color: red;
+  font-size: 11px;
+}
+.inner-logo {
+  height: 15px;
+}
+.button {
+  position: relative;
+  width: 50%;
+  text-transform: uppercase;
+}
+.button-reset {
+  border: 0;
+  border-radius: 50%;
+}

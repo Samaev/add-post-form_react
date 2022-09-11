@@ -1,6 +1,6 @@
 export type Post = {
-  author: string,
-  image: string,
+  nameAuthor: string,
+  imageUrl: string,
   text: string,
   id: number,
 };
