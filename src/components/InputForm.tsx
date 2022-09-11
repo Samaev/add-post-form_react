@@ -93,7 +93,7 @@ export const InputForm: React.FC<Props> = ({ posts, onCreatePost }) => {
           <input
             className="text-field"
             type="text"
-            placeholder="Введите ссылку на свою аватарку"
+            placeholder="Введите ссылку на аватарку"
             value={imageUrl}
             onChange={handleInputImageUrl}
           />
@@ -113,7 +113,7 @@ export const InputForm: React.FC<Props> = ({ posts, onCreatePost }) => {
         <div>
           <textarea
             className="text-field"
-            placeholder="Текст поиска"
+            placeholder="Текст поста"
             value={text}
             onChange={handleInputText}
             cols={30}

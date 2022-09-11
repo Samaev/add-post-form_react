@@ -22,7 +22,7 @@ export const TopList: React.FC<Props> = ({ posts }) => {
 
   return (
     <div>
-      <p>TopList</p>
+      <p>TopList of 5 newest Posts</p>
       {topPosts.map((post) => (
         <div key={post.id} className="post-container">
           <div className="image-container">
