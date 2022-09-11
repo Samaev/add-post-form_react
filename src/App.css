@@ -1,7 +1,7 @@
 
 .App-header {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 3fr 2fr;
   gap: 30px;
   padding: 30px;
 
@@ -24,13 +24,13 @@
   margin: 15px 5px 5px;
   padding: 15px 5px 5px 20px;
   background-color: rgb(131, 184, 95);
-  width: 95%;
   border-radius: 5px;
 }
 .text-field {
   margin: 15px;
   border: 0px;
   width: 90%;
+  outline: none;
   background-color: #e9e3e3;
   border-bottom: 1px solid black;
 }
@@ -54,4 +54,5 @@
 .button-reset {
   border: 0;
   border-radius: 50%;
+  transform: translate( 250% ,-300%);
 }

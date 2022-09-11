@@ -74,6 +74,7 @@ export const InputForm: React.FC<Props> = ({ posts, onCreatePost }) => {
     setImageUrl("");
     setNameAuthor("");
     setText("");
+    setImageUrlError(false);
   };
   return (
     <>
